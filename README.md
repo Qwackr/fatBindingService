@@ -5,7 +5,7 @@ Author: Scott Prue <br>
 Email: scott@reels.io <br>
 
 
-This is a public version of a service I wrote for use within the [Reels Application](reels.io) developed by [Qwackr](qwackr.com).
+This is a public version of a service I wrote for use within the [Reels Application](http://reels.io) developed by [Qwackr](http://qwackrapp.com).
 
 ##Description
 This service is built to store information that is bound or gathered from firebase to store/cache the information on the device as well as in a service. Using the [forge prefs](https://trigger.io/modules/prefs/current/docs/index.html) module, the data is stored on the device for access after rebooting. This can be especially helpful on devices with slow internet connections.
@@ -28,7 +28,7 @@ I am releasing this just after seeing interest and it does not work completely a
 `BackgroundProcess` wraps a array modification function in seperate timeouts for each item in the array timeouts
 
 ##Dependencies
-1. [Firebase](firebase.com)
-1. [AngularJS](angularjs.org)
+1. [Firebase](http://firebase.com)
+1. [AngularJS](http://angularjs.org)
 1. [Trigger](trigger.io) including [prefs module](https://trigger.io/modules/prefs/current/docs/index.html)
 1. A forge service that detects the existance of forge
